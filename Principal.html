@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Menu Copa America 2016</title>
+	<link rel="stylesheet" href="./Css/Cssprin.css">
+</head>
+<body>
+<header id="main-header">
+		<div class="usati">
+				<div id="a1" class="menu">
+				<a class="b" href="./Proyecto.html">Equipos</a>
+				</div>
+				<div id="a2" class="menu">
+			    <a class="b" href="./Calendario.html">Calendario</a>
+				</div>
+				<div id="a3" class="menu">
+			    <a class="b" href="./Marcadores.html">Marcadores</a>
+				</div>
+		</div>
+ 
+	</header>	
+<img class="cp" src=".\Imagenes\copa.jpg" alt ="Imagen">
+<div class="container">
+ <div>
+ 	<div id="grupoa" class="item1">Grupo A</div>
+	<div id="Usa" class="item" >
+    <img class="banusa" src=".\Imagenes\Usa.jpg" alt ="Imagen"/>
+    <a>Usa</a>
+	</div>
+	<div id="Col" class="item" >
+	<img class="bancol" src=".\Imagenes\Colombia.jpg" alt ="Imagen"/>
+    <a>Colombia</a>
+    </div>
+	<div id="Cos" class="item" >
+		<img class="bancos" src=".\Imagenes\CostaRica.png" alt ="Imagen"/>
+    <a>CostaRica</a>
+	</div>
+	<div id="Par" class="item">
+		<img class="banpar" src=".\Imagenes\Paraguay.png" alt ="Imagen"/>
+    <a>Paraguay</a>
+	</div>
+ </div>	
+  <div>
+ 	<div id="grupoa" class="item1">Grupo B</div>
+	<div id="Usa" class="item" >
+    <img class="banusa" src=".\Imagenes\banbra.png" alt ="Imagen"/>
+    <a>Brasil</a>
+	</div>
+	<div id="Col" class="item" >
+	<img class="bancol" src=".\Imagenes\banper.png" alt ="Imagen"/>
+    <a>Peru</a>
+    </div>
+	<div id="Cos" class="item" >
+		<img class="bancos" src=".\Imagenes\banecu.png" alt ="Imagen"/>
+    <a>Ecuador</a>
+	</div>
+	<div id="Par" class="item">
+		<img class="banpar" src=".\Imagenes\banhai.png" alt ="Imagen"/>
+    <a>Haiti</a>
+	</div>
+ </div>	
+   <div>
+ 	<div id="grupoa" class="item1">Grupo C</div>
+	<div id="Usa" class="item" >
+    <img class="banusa" src=".\Imagenes\banmex.png" alt ="Imagen"/>
+    <a>México</a>
+	</div>
+	<div id="Col" class="item" >
+	<img class="bancol" src=".\Imagenes\banuru.png" alt ="Imagen"/>
+    <a>Uruguay</a>
+    </div>
+	<div id="Cos" class="item" >
+		<img class="bancos" src=".\Imagenes\banjam.png" alt ="Imagen"/>
+    <a>Jamaica</a>
+	</div>
+	<div id="Par" class="item">
+		<img class="banpar" src=".\Imagenes\banven.png" alt ="Imagen"/>
+    <a>Venezuela</a>
+	</div>
+ </div>	
+    <div>
+ 	<div id="grupoa" class="item1">Grupo D</div>
+	<div id="Usa" class="item" >
+    <img class="banusa" src=".\Imagenes\banarg.png" alt ="Imagen"/>
+    <a>Argentina</a>
+	</div>
+	<div id="Col" class="item" >
+	<img class="bancol" src=".\Imagenes\banchi.png" alt ="Imagen"/>
+    <a>Chile</a>
+    </div>
+	<div id="Cos" class="item" >
+		<img class="bancos" src=".\Imagenes\banpan.png" alt ="Imagen"/>
+    <a>Panamá</a>
+	</div>
+	<div id="Par" class="item">
+		<img class="banpar" src=".\Imagenes\banbol.png" alt ="Imagen"/>
+    <a>Bolivia</a>
+	</div>
+ </div>	
+</div>
+<div class="automatic" style="max-width:500px">
+  <img class="mySlides" src=".\Imagenes\imagen2.jpg" style="width: 650px; display: block;">
+  <img class="mySlides" src=".\Imagenes\imagen3.jpg" style="width: 650px; display: none;">
+   <img class="mySlides" src=".\Imagenes\imagen4.jpg" style="width: 650px; display: none;">
+  <img class="mySlides" src=".\Imagenes\imagen5.jpg" style="width: 650px; display: block;">
+  <img class="mySlides" src=".\Imagenes\imagen6.jpg" style="width: 650px; display: none;">
+  <img class="mySlides" src=".\Imagenes\imagen7.jpg" style="width: 650px; display: none;">
+   <img class="mySlides" src=".\Imagenes\imagen8.jpg" style="width: 650px; display: none;">
+  <img class="mySlides" src=".\Imagenes\imagen9.jpg" style="width: 650px; display: block;">
+  <img class="mySlides" src=".\Imagenes\imagen10.jpg" style="width: 650px; display: none;">
+    <img class="mySlides" src=".\Imagenes\imagen11.jpg" style="width: 650px; display: none;">
+  <img class="mySlides" src=".\Imagenes\imagen12.jpg" style="width: 650px; display: none;">
+   <img class="mySlides" src=".\Imagenes\imagen13.jpg" style="width: 650px; display: none;">
+  <img class="mySlides" src=".\Imagenes\imagen14.jpg" style="width: 650px; display: block;">
+  <img class="mySlides" src=".\Imagenes\imagen15.jpg" style="width: 650px; display: none;">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+}
+</script>
+</body>
+</html>
+
+

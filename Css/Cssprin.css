@@ -1,0 +1,136 @@
+body{
+	background-color: #214772;
+	font-family: SANS-SERIF;
+    font-size: 12px;
+}
+#main-header{
+	background: black;
+	color: white;
+	height: 200px;
+	border-radius: 5px;
+}
+#main-header a {
+		color: white;
+	}
+.usati{
+	display: flex;
+	flex-direction: row;
+	min-height: 200px;
+	justify-content: space-around;
+	height: 178px;
+    width: 333px;
+    position: absolute;
+    left: 1000px;
+    top: 7px;
+}
+.menu{
+align-self: flex-end;
+background-color: black;
+margin: 3px;
+    height: 30px;
+    width: 100px;
+text-align: center;
+border-radius: 5px;
+}
+.menu:hover{
+background-color: #484343;
+}
+.b{
+	color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.cp{
+	position: absolute;
+	    top: 8px;
+    left: 507px;
+    height: 200px;
+    width: 270px;
+}
+.inicio{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container{
+	position: absolute;
+    top: 650px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1335px;
+    height: 218px;
+    background-color:#214772;
+}
+.item{
+    padding: 15px;
+    margin: 3px;
+	min-width: 150px;
+	text-align: flex-start;	
+	border-radius: 5px;
+}
+#grupoa{
+    align-self: center;
+    color: aqua;
+    font-size: 15px;
+}
+#Usa{
+	background-color: white;
+	height: 15px;
+	color: #929698;
+}
+#Col{
+	background-color: white;
+	height: 15px;
+	color: #929698;
+}
+#Cos{
+background-color: white;
+	height: 15px;
+	color: #929698;
+}
+#Par{
+	background-color: white;
+	height: 15px;
+	color: #929698;
+}
+.banusa{
+	height: 20px;
+	width: 30px;
+	border-radius: 2px;
+}
+.bancol{
+	height: 20px;
+	width: 30px;
+	border-radius: 2px;
+}
+.bancos{
+    height: 20px;
+	width: 30px;
+	border-radius: 2px;
+}
+.banpar{
+	height: 20px;
+	width: 30px;
+	border-radius: 2px;
+}
+.a{
+	color: #516b51;
+	font-size: 15px;
+	text-decoration: none;
+}
+.automatic{
+	position: absolute;
+	    top: 223px;
+    left: 335px;
+	height: 320px;
+	width: 500px;
+}
+.mySlides{
+    height: 400px;
+	border-radius: 15px;
+	 border-style: groove;   
+    border-color: white;
+    border-width: 5px;
+}

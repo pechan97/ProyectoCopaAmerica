@@ -1,0 +1,303 @@
+body{
+    background-color: #214772;
+    font-family: SANS-SERIF;
+    font-size: 12px;
+}
+.icono{
+    align-items: center;
+    position: absolute;
+    top: 95px;
+    left: 565px;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+}
+.nom{
+    position: absolute;
+    top: 390px;
+    left: 612px;
+    color: white;
+    font-size: 30px;
+}
+.cp{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 215px;
+    width: 215px;
+}
+.pie{
+    position: absolute;
+    top: 5px;
+    left: 575px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;    
+}
+#main-header{
+    background: black;
+    color: white;
+    height: 200px;
+    border-radius: 20px;
+}
+#main-header a {
+        color: white;
+    }
+.usati{
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    justify-content: space-around;
+    height: 178px;
+    width: 333px;
+    position: absolute;
+    left: 1000px;
+    top: 7px;
+
+}
+.menu{
+align-self: flex-end;
+background-color: black;
+margin: 3px;
+    height: 30px;
+    width: 100px;
+text-align: center;
+border-radius: 5px;
+}
+.menu:hover{
+background-color: #484343;
+}
+.b{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dtusa{
+height: 175px;
+width: 135px;
+}
+.img {
+    position: absolute;
+    left: 161px;
+    background-color: #717070;
+    position: absolute;
+    top: 445px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 555px;
+    width: 1050px;
+}
+#imagendt{
+    color: white;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 130px;
+    font-size: 18px;
+}
+#imgdt{
+border-radius: 3px;
+margin: 5px;
+padding: 5px;
+}
+.cancha{
+    position: absolute;
+    top: 1100px;
+    left: 250px;
+    width: 502px;
+    height: 690px;
+}
+
+#tit{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    min-width: 170px;
+    text-align: flex-start;
+        font-size: 28px;
+}
+.jugadores {
+    padding: 5px;
+    min-width: 120px;
+    min-height: 130px;
+}
+.esta{
+    width: 120px;
+    height: 170px;
+}
+.fut
+{
+    width: 500px;
+}
+.item1{
+    position: absolute;
+    top: 1100px;
+    left: 250px;
+    display: flex;
+    width: 502px;
+    height: 690px;
+    flex-direction: column;
+}
+.ficha {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    font-family: fantasy;
+    font-size: 13px;
+    color: black;
+
+}
+.portero{
+    background-color: red;
+}
+.cam1{
+    align-self: center;
+    height: 16px;
+    width: 16px;
+    padding: 44px;
+}
+.cam2{
+display: flex;
+flex-direction: row;
+align-self: center;
+height: 16px;
+width:502px;
+padding: 18px;
+justify-content: space-around;
+}
+.cam3{
+display: flex;
+flex-direction: row;
+align-self: center;
+    height: 16px;
+    width: 163px;
+    padding: 33px;
+justify-content: space-around; 
+}
+.cam4{
+display: flex;
+flex-direction: row;
+align-self: center;
+  height: 20px;
+  width: 490px;
+  padding: 32px;
+justify-content: space-around;
+}
+.cam5{
+align-self: center;
+    height: 16px;
+    width: 16px;
+  padding: 10px;
+}
+.once{
+    color: white;
+    font-size: 12px;
+}
+#jug1{
+    position: absolute;
+    top: 25px;
+    left: 212px;
+}
+#jug2{
+    position: absolute;
+    top: 110px;
+    left: 38px;
+
+}
+#jug3{
+    position: absolute;
+        top: 110px;
+    left: 142px;
+
+}
+#jug4{
+    position: absolute;
+        top: 109px;
+    left: 282px;
+}
+#jug5{
+    position: absolute;
+        top: 110px;
+    left: 403px;
+}
+#jug6{
+    position: absolute;
+    top: 177px;
+    left: 179px;
+}
+#jug7{
+    position: absolute;
+    top: 177px;
+    left: 263px;
+}
+#jug8{
+    position: absolute;
+       top: 256px;
+    left: 204px;
+
+}
+#jug9{
+    position: absolute;
+         top: 256px;
+    left: 364px;
+}
+#jug10{
+    position: absolute;
+    top: 256px;
+    left: 45px;
+}
+#jug11{
+    position: absolute;
+    top: 320px;
+    left: 222px;
+}
+.ali{
+        position: absolute;
+    top: 1100px;
+    left: 1010px;
+    display: flex;
+    width: 215px;
+    height: 455px;
+    flex-direction: column;
+    background-color: #717070;
+    border-radius: 15px;
+}
+.suple{
+   font-size: 20px;
+   color: white;
+    margin: 5px;
+}
+.titu{
+    position: absolute;
+    top: 1100px;
+    left: 785px;
+    display: flex;
+    width: 215px;
+    height: 455px;
+    flex-direction: column;
+    background-color:#717070;
+    border-radius: 15px;
+}
+.ti{
+   font-size: 20px;
+   color: white;
+    margin: 5px;
+}
+#dtt{
+    font-size: 20px;
+    font-family: -webkit-body;
+    color: aqua;
+}
+.cc{
+    position: absolute;
+    top: 11px;
+    left: 18px;
+    height: 194px;
+    width: 263px;
+}
